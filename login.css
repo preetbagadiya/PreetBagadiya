@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #d3d0cb;
+	background-image: "loginimage.png";
+}
+
+.center{
+	border: 1px solid blue;
+	width: 400px;
+	border-radius: 8px;
+
+	text-align: center;
+	margin: 15% auto 0;
+	padding: 10px;
+}
+
+.center h1{
+	margin: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+
+}
+input{
+	width: 87%;
+}
+
+button{
+	margin-top: 20px;
+	text-decoration: none;
+	padding: 10px;
+	height: 45px;
+	width: 87%;
+}
+
+#text{
+	margin: 10px;
+	padding: 10px;
+}

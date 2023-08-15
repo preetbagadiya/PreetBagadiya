@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<style type="text/css">
+		#container{
+			display: inline-flex;
+			align-items: center;
+			margin: auto;
+			text-align: center;
+			background-color: #D8D9DA;
+			height: auto;
+			flex-wrap: wrap;			
+		}
+
+		label {
+	padding: 10px;
+	margin: 20px;
+	font-size: 1.25rem;
+
+}
+
+input{
+padding: 10px;
+margin: 10px;
+border-radius: 8px;
+
+}
+select{
+	padding:10px;
+	margin: 10px;
+}
+
+button{
+	display: block;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;	
+}
+
+
+
+      .button {
+        background-color: #1c00b5 ;
+        border: none;
+        color: white;
+        padding: 12px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+
+      a:hover{
+      	background-color: #1c87c9 ;
+      	
+
+      }
+
+	</style>
+
+
+
+<form method="Post">
+		<h1 style="align-items: center; text-align: center;">Registration Page</h1>
+	
+<div id="container">
+
+
+
+	<div id="user-detail">
+		<label>First Name</label>
+		
+		<input type="text" name="fname" id="fname" placeholder="First Name" required style="border-radius: 8px;">
+		<br>
+		
+	</div>
+	<div id="user-detail">	
+		<label>Birth Date</label>
+		<input type="text" name="lname" id="lname" placeholder="Last Name" required>
+		<br>
+		
+	</div>
+	<div id="user-detail">
+		<label>Birth Date</label>
+		<input type="password" name="password" placeholder="PASSWORD" id="text" required style="border-radius: 8px;">
+		<br>
+		
+	</div>
+	<div id="user-detail">
+		<label>Birth Date</label>
+		<input type="tel" name="phonenumber" placeholder="phonenumber" required="" style="border-radius: 8px;">
+		<br>
+		
+	</div>
+	<div id="user-detail">
+		<label>Birth Date</label>
+		<input type="date" name="birthdate" required>
+		<br>
+
+	</div>
+	<div id="user-detail">
+		<label>Select Type of Service you are seeking</label>
+
+		<select>
+			<option value="1">Family Planning</option>
+			<option value="2">Finnancial Investment</option>
+			<option value="3">Retierment Investment</option>
+		</select>
+		<br>
+		
+	</div>
+	<div id="user-detail">
+		<label>Select Type of Service you are seeking</label>
+
+		<select>
+			<option value="1">Family Planning</option>
+			<option value="2">Finnancial Investment</option>
+			<option value="3">Retierment Investment</option>
+		</select>
+		<br>
+		
+	</div>
+
+	<div id="user-detail">
+		<label for="salary">Select your annual Income: </label>
+
+		<input type="range" name="salary" id="salary" min="0" max="1000000" required>
+		<br>
+
+		
+	</div>
+
+	
+
+
+<br>
+
+
+</div>
+	<div id="idd" style="background-color: #D8D9DA; display: block; margin: auto; align-items: center; text-align: center;">
+	<br>
+	 <a href="menu.html" class="button">Click Here</a>
+	</div>
+</form>
+
+
+</body>
+</html>

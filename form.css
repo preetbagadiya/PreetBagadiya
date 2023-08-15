@@ -1,0 +1,75 @@
+*{
+	padding: 0; 
+	margin: 0;
+
+}
+
+
+
+label {
+	padding: 10px;
+	margin: 20px;
+	font-size: 1.25rem;
+
+}
+
+input{
+padding: 10px;
+margin: 10px;
+
+}
+
+#main1{
+	width: 100%;	
+	align-items: center;
+	text-align: center;
+	display: block;
+	margin: auto;
+	
+	
+
+	height: 100%
+	justify-content:space-between;
+}
+
+#main2{
+	width: 50%;
+	
+	justify-content: space-between;
+	
+	height: 100%;
+}
+
+#container{
+	display: inline-flex;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	background-color: cyan;
+	height: auto;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+select{
+	padding:10px;
+	margin: 10px;
+}
+
+button{
+	display: block;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;	
+}
+
+#containermain{
+
+	background-color: cyan;
+}
+
+#header
